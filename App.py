@@ -1,99 +1,4 @@
-# import nlpcloud
-# class NLPApp:
-#     def __init__(self):
-#         self.__database={}
-#         self.__first_menu()
-
-#     def __first_menu(self):
-#         first_input=input("""
-#             HI how would you like to proceed?
-#               1.NOt a member? Register
-#               2.Already a member? login
-#               3. Galti se aa gaya? Exit
-#               """)
-        
-#         if first_input=="1":
-#             self.__register()
-#         elif first_input=="2":
-#             self.__login()
-#         else:
-#             exit()        
-#     def __register(self):
-#         name=input("enter name")
-#         email=input("enter email")
-#         password=input("enter password")
-        
-#         if email in self.__database:
-#             print("email already exits")
-#         else:
-#             self.__database[email]={name,password}
-#             print("registration successfull Now login")
-#             print(self.__database)
-#             self.__first_menu()
-
-#     def __login(self):
-#         email=input("enter email")
-#         password=input("enter password")
-
-#         if email in self.__database:
-#             if self.__database[email][1]==password:
-#                 print("login successfull")
-#                 self.__second_menu()
-#             else:
-#                 print("wrong password.Try again")   
-#                 self.__login() 
-
-#         else:
-#             print("This email is not registered")   
-#             self.__first_menu()
-         
-
-#     def __second_menu(self):
-#         second_input=input("""
-#             HI how would you like to proceed?
-#               1. NER
-#               2. Language Detaction
-#               3. Sentiment Analysis
-#               4. Logout
-#               """)
-        
-#         if second_input=="1":
-#             self.__ner()
-#         elif second_input=="2":
-#             self.__language_analysis()
-#         elif second_input=="3":
-#             self.__sentiment_analysis()
-#         else:
-#             exit() 
-#     def __ner(self):
-#         para=input("enter the paragraph")
-#         search_term=input("what would you like to search")
-
-    
-
-#         client = nlpcloud.Client("gpt-oss-120b", "a051638d59826605d71a692f298560a4da91c47a", gpu=True)
-#         response=client.entities(para, searched_entity=search_term)   
-#         print(response)
-
-
-# obj=NLPApp()
-
-# ============================================================
-#         SentiMate — NLP App (Full Working Template)
-#         Features: Sentiment Analysis, NER, Language Detection
-#                         by Ritesh
-# ============================================================
-# Install: pip install nlpcloud emoji
-
-# ============================================================
-#         SentiMate — NLP App (Full Working Template)
-#         Features: Sentiment Analysis, NER, Language Detection
-#                         by Ritesh
-# ============================================================
-# Install: pip install nlpcloud emoji
-
 import nlpcloud
- 
 class NLPApp:
  
   def __init__(self):
@@ -214,7 +119,6 @@ class NLPApp:
     print('Confidence :', round(L[index] * 100, 2), '%')
  
     self.__second_menu()
- 
  
 obj = NLPApp()
  
