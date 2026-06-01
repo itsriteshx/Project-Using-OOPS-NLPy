@@ -1,9 +1,6 @@
 # 🧠 Project Using OOPS — NLPy
 
 A Python-based Natural Language Processing (NLP) application built using **Object-Oriented Programming (OOP)** concepts. This project demonstrates real-world usage of encapsulation, abstraction, and class design through an interactive terminal app.
-
----
-
 ## 🚀 Features
 
 | Feature | Description | Status |
@@ -101,7 +98,6 @@ I just got promoted at work and I am so excited about my future!
 Emotion     : JOY
 Confidence  : 99.87%
 ```
-
 ---
 
 ## 🏗️ OOP Concepts Used
