@@ -66,7 +66,7 @@ Hi how would you like to proceed?
 4. Logout
 ```
 ---
-## 💡 Feature Examples
+
 
 ### 🏷️ NER — Named Entity Recognition
 ```
